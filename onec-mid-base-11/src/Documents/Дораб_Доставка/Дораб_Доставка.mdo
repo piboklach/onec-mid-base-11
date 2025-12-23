@@ -209,4 +209,11 @@
       <value>Анкета клиента</value>
     </synonym>
   </templates>
+  <templates uuid="229120db-40e5-4d9f-b344-fabd68b9c535">
+    <name>ПФ_MXL_ТоварнаяНакладная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товарная накладная</value>
+    </synonym>
+  </templates>
 </mdclass:Document>
