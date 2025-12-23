@@ -10,5 +10,7 @@
   <content>Document.ПоступлениеТоваровУслуг</content>
   <content>Document.ЗаказПокупателя</content>
   <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.Дораб_Доставка</content>
+  <content>Enum.Дораб_СтатусЗаказа</content>
   <parentSubsystem>Subsystem.ПокупкиИПродажи</parentSubsystem>
 </mdclass:Subsystem>

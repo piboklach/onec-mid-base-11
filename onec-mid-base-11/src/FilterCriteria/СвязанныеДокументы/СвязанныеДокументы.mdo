@@ -11,9 +11,11 @@
   </synonym>
   <type>
     <types>DocumentRef.ЗаказПокупателя</types>
+    <types>DocumentRef.Дораб_Доставка</types>
     <types>DocumentRef.РеализацияТоваровУслуг</types>
     <types>DocumentRef.ОплатаОтПокупателя</types>
   </type>
   <content>Document.РеализацияТоваровУслуг.Attribute.Основание</content>
   <content>Document.ОплатаОтПокупателя.Attribute.Основание</content>
+  <content>Document.Дораб_Доставка.Attribute.Основание</content>
 </mdclass:FilterCriterion>
