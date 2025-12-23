@@ -73,18 +73,27 @@
         <id>23</id>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
+      <type>PictureField</type>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.Скрепка</picture>
+      </headerPicture>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+      <extInfo xsi:type="form:ImageFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.КоллекцияСкрепка</picture>
+        </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
+        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -418,6 +427,10 @@
       <id>5</id>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
     <searchStringAddition>
       <name>СписокСтрокаПоиска</name>
       <id>7</id>
@@ -571,6 +584,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ

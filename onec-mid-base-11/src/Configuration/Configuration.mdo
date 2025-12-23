@@ -623,6 +623,8 @@
   <roles>Role.ЧтениеДополнительныхСведений</roles>
   <roles>Role.ЧтениеНСИ</roles>
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
+  <roles>Role.Дораб_ДобавлениеИзменениеДоставки</roles>
+  <roles>Role.Дораб_ЧтениеДоставки</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</commonTemplates>
@@ -1216,6 +1218,7 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.Дораб_Должности</catalogs>
   <catalogs>Catalog.Дораб_КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Дораб_ДоставкаПрисоединенныеФайлы</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
